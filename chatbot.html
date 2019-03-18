@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css\chatbot.css">
+
+</head>
+
+<body>
+    <h1>Chatbot  <i class="fas fa-comment"></i></h1>
+
+    
+    <p id="chatLog"><img src="img\chatbot.png" width="50px" height="50px"><br> - C H A T - -<br></p>
+
+    <input type="text" name="name" id="chatbox" size="70" onkeydown="if (event.keyCode == 13) {tester(chatbox)}">
+ 
+    <button type="button" id="btnSend" onclick="tester(chatbox)">Enviar</button>
+    
+    <script src="js/chatbot.js"></script>
+   
+</body>
+
+</html>
